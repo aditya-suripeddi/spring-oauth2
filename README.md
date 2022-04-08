@@ -24,7 +24,7 @@ Add following entries to /etc/hosts file
 
 <br>
 <br>
-And the user of oauth-client app is resource owner, in the call flow diagram it is User-Agent
+And the user of oauth-client app is Resource Owner, in the call flow diagram it is User-Agent
 
 <img src="AuthCodeFlowSequenceDiagram-1.webp" height="700px" width="800px" alt="AuthCodeFlowSequenceDiagram-1.webp" />
 
