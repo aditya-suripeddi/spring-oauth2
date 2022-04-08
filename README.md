@@ -15,16 +15,16 @@ Add following entries to /etc/hosts file
 
 <br>
 
-| Spring-boot-module                  |   Oauth2 component   |
-|-------------------------------------|:--------------------:|
-| oauth-client                        |        Client        |
-| provider-oauth-authorization-server | Authorization server |
-| provider-oauth-resource-server      |   Resource Server    |
-| provider-signup-service             |                      |
+| Spring-boot-module                  |   Oauth2 component in call flow diagram               |
+|-------------------------------------|:-----------------------------------------------------:|
+| oauth-client                        |        Client Application                             |
+| provider-oauth-authorization-server |        Authorization server                           |
+| provider-oauth-resource-server      |         Resource Server                               |
+| provider-signup-service             |                                                       |
 
 <br>
 <br>
-And the user of oauth-client app is resource owner
+And the user of oauth-client app is resource owner, in the call flow diagram it is User-Agent
 
 <img src="AuthCodeFlowSequenceDiagram-1.webp" height="700px" width="800px" alt="AuthCodeFlowSequenceDiagram-1.webp" />
 
